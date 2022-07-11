@@ -55,9 +55,19 @@ This means lots 1 and 2 share similar results and are statistically similar to t
 
 # Study Design: MechaCar vs Competition #
 
+
+
 for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 What metric or metrics are you going to test?
 What is the null hypothesis or alternative hypothesis?
 What statistical test would you use to test the hypothesis? And why?
 What data is needed to run the statistical test?
 
+<p align="center"><img src="https://github.com/teachjanderson/MechaCar_Statistical_Analysis/blob/main/Images/Lotttests.png" width="600" />
+
+https://www.coxautoinc.com/market-insights/relentlessly-rising-vehicle-list-prices-reach-all-time-highs/
+
+"Eighty-three percent of Americans agreed that they expect each new generation of vehicles to be more fuel efficient than the last, and 74 percent agreed that automakers have a responsibility to continue improving gas mileage."
+https://article.images.consumerreports.org/prod/content/dam/surveys/Consumer_Reports_Electric_Vehicles_Fuel_Economy_National_August_2020
+
+https://www.consumerreports.org/fuel-economy-efficiency/most-americans-want-better-fuel-economy-in-cars-a9085846046/
