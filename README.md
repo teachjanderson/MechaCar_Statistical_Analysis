@@ -6,12 +6,18 @@ AutoRU's newest prototype, the MechaCar, recently encountered troubles in produc
 
 # Linear Regression to Predict MGP #
 
-Linear regression models are used to test vehicle length, weight, spoiler angle, ground clearance, and all wheel drive capability (awd) to determine impact on miles per gallon (mpg). Two of these variables, length and ground clearance, demonstrate non-random variance in the dataset. The image below shows the summary statistics of each variable. 
+Linear regression models are used to test vehicle length, weight, spoiler angle, ground clearance, and all wheel drive capability (awd) to determine the impact on miles per gallon (mpg). Two of these variables, length and ground clearance, demonstrate non-random variance in the dataset. The image below shows the summary statistics for each variable. 
 
 <p align="center"><img src="https://github.com/teachjanderson/MechaCar_Statistical_Analysis/blob/main/Images/D1Variables.png" width="600" />
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Is the slope of the linear model considered to be zero? Why or why not?
+Vehicle length and ground clearance display non-random amounts of variance in the modeling. This means they likely make an impact on the prototype's mile per gallon ratio. The other variables display a random amount of variance which is not as likely to be a contributing factor. The slope of the vehicle length and ground clearance are displayed in the graphs below. 
+
+<p align="center"><img src="https://github.com/teachjanderson/MechaCar_Statistical_Analysis/blob/main/Images/Vehicle_Length.png" width="600" />
+
+<p align="center"><img src="https://github.com/teachjanderson/MechaCar_Statistical_Analysis/blob/main/Images/Ground_Clearance.png" width="600" />
+
+The slope of this linear model is not zero, as the p-value of 5.35x10-11 is below the significance level of 0.05%. This provides evidence to reject the null hypothesis and suggests there may be other factors impacting the mpg which are not included in the dataset. 
+
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 # Summary Statistics on Suspension Coils #
