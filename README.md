@@ -42,5 +42,22 @@ T-tests were conducted to determine if all manufacturing lots and each lot indiv
 
 <p align="center"><img src="https://github.com/teachjanderson/MechaCar_Statistical_Analysis/blob/main/Images/SuspensionCoilsTTest.png" width="600" />
 
+In the single suspension coil t-test, the sample mean is 1498.78. The p-value is 0.06, higher than the significance level of 0.05. This means the lots are statistically similar to the population mean of 1,500 pounds per square inch. 
 
-In the single suspension coil t-test, the sample mean is 1498.78. The p-value is 0.06, higher than the significance level of 0.05. Therefore, there is not enough evidence to reject the null hypothesis. This means the lots are statistically similar to the population mean of 1,500 pounds per square inch. 
+Individually, the lots were each t-tested. The data for each is displayed below. 
+* Lot1 had a sample mean of 1500 with a p-value of 1. 
+* Lot2 had a sample mean of 1500.2 with a p-value of 0.60
+* Lot3 had a sample mean of 1496.14 with a p-value of 0.41.
+
+This means lots 1 and 2 share similar results and are statistically similar to the population mean. However, lot 3 has a lower p-value than the significance level of 0.05. This means lot 3 has a mean statistically different than the population mean. 
+
+<p align="center"><img src="https://github.com/teachjanderson/MechaCar_Statistical_Analysis/blob/main/Images/Lotttests.png" width="600" />
+
+# Study Design: MechaCar vs Competition #
+
+for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+What metric or metrics are you going to test?
+What is the null hypothesis or alternative hypothesis?
+What statistical test would you use to test the hypothesis? And why?
+What data is needed to run the statistical test?
+
