@@ -55,19 +55,30 @@ This means lots 1 and 2 share similar results and are statistically similar to t
 
 # Study Design: MechaCar vs Competition #
 
+Changes are on the horizon for what consumers need, expect, and want from their automobiles. The impact of the pandemic and changes to the economy have shifted the overall expectations. As MechaCar focuses on reliability and competitiveness in the market, understanding these trends is vital. Since the pandemic, car prices have continued to climb. Consumers want an automobile that is reliable and cost-efficient. According to Cox Automotive's research, seen in the graph below, car prices continue to climb. 
 
-
-for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
-
-<p align="center"><img src="https://github.com/teachjanderson/MechaCar_Statistical_Analysis/blob/main/Images/Lotttests.png" width="600" />
+<p align="center"><img src="https://github.com/teachjanderson/MechaCar_Statistical_Analysis/blob/main/Images/CoxAuto.png" width="600" />
 
 https://www.coxautoinc.com/market-insights/relentlessly-rising-vehicle-list-prices-reach-all-time-highs/
 
-"Eighty-three percent of Americans agreed that they expect each new generation of vehicles to be more fuel efficient than the last, and 74 percent agreed that automakers have a responsibility to continue improving gas mileage."
-https://article.images.consumerreports.org/prod/content/dam/surveys/Consumer_Reports_Electric_Vehicles_Fuel_Economy_National_August_2020
+With this rise in the cost of automobiles, consumers expect more from their money. According to the research by [Cox](https://article.images.consumerreports.org/prod/content/dam/surveys/Consumer_Reports_Electric_Vehicles_Fuel_Economy_National_August_2020), "Eighty-three percent of Americans agreed that they expect each new generation of vehicles to be more fuel efficient than the last, and 74 percent agreed that automakers have a responsibility to continue improving gas mileage."
+Report found [Here](https://www.consumerreports.org/fuel-economy-efficiency/most-americans-want-better-fuel-economy-in-cars-a9085846046/)
 
-https://www.consumerreports.org/fuel-economy-efficiency/most-americans-want-better-fuel-economy-in-cars-a9085846046/
+To address these concerns, a few studies comparing MechaCar to its competition is recommended. The first is comparing city and highway fuel efficiency to that of similar automobiles (gas, electric, or hybrid). The second recommended study is a cost comparison to establish the more competitive cost. 
+
+## Metrics and Data ##
+While fuel efficiency trends are more consistent in historical data, showing no drastic change over the past few years, pricing has changed considerably since the pandemic. It is recommended to collect data from major competitors within the previous 3 years. The data should include information on the following:
+
+A few metrics are recommended as factors for the overall cost. 
+* Selling Price: Dependent Variable
+* Fuel Efficiency City: Independent Variable
+* Fuel Efficiency Highway: Independent Variable
+* Engine Type - Gas, Electric, Hybrid: Independent Variable
+
+## Null and Alternative Hypothesis - Statistical Test ##
+
+* Null Hypothesis: The selling price for MechaCar is competitive in comparison to the mean of similar automobiles
+* Alternative Hypothesis: The selling price for MechaCar is not competitive in comparison to the mean of similar automobiles
+
+Given the various factors such as efficiency and engine type, a multiple linear regression is recommended to see which factor has the greatest correlation to competitive price. This will provide MechaCar with information for future manufacturing decisions.
+
